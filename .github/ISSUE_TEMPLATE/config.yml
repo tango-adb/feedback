@@ -3,6 +3,7 @@ contact_links:
   - name: Discussions
     url: https://github.com/yume-chan/tango-feedback/discussions/new
     about: Ask questions about usage or anything related to Android and ADB
+
   - name: Issues about Tango NPM packages
-    url: https://github.com/yume-chan/ya-webadb/issues/new
+    url: https://github.com/yume-chan/ya-webadb/issues/new/choose
     about: Bug reports and features requests for `@yume-chan/adb-*` packages
