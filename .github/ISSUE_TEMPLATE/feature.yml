@@ -22,11 +22,15 @@ body:
     attributes:
       label: How would you like Tango to be improved?
       description: Please describe the feature you want in detail.
+    validations:
+      required: true
 
   - type: textarea
     attributes:
       label: How do you think it should work?
       description: What information or operations should be included? How should they be presented?
+    validations:
+      required: true
 
   - type: textarea
     attributes:

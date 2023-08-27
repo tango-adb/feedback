@@ -30,14 +30,19 @@ body:
       label: The device you're connecting to
       description: The brand, model, and Android version of your device
       placeholder: Google Pixel 6, Android 13
+    validations:
+      required: true
 
   - type: textarea
     attributes:
       label: What did you do and what happened?
-      description: Which button did you clicked? Is there any error popups?
+      description: Which button did you click? How did it react? Is there any error popups?
+    validations:
+      required: true
 
   - type: textarea
     id: log
     attributes:
       label: (Optional) Browser console output
       description: If you know what browser DevTools is, please include the output in the console tab. If you don't, it's fine to leave it empty.
+      render: Text
