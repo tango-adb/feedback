@@ -1,0 +1,43 @@
+name: Bug Report
+description: Something doesn't work right
+labels:
+  - "bug"
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Sad to see Tango doesn't work for you. Please fill the following form so we can investigate the problem:"
+
+  - type: checkboxes
+    attributes:
+      label: Pre-issue checklist
+      options:
+        - label: I've searched the issue list but couldn't find the problem I had
+          required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: The environment Tango is running in
+      description: The operating system, and browser you're using Tango with
+      placeholder: Windows 11, Chrome 115
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: The device you're connecting to
+      description: The brand, model, and Android version of your device
+      placeholder: Google Pixel 6, Android 13
+
+  - type: textarea
+    attributes:
+      label: What did you do and what happened?
+      description: Which button did you clicked? Is there any error popups?
+
+  - type: textarea
+    id: log
+    attributes:
+      label: (Optional) Browser console output
+      description: If you know what browser DevTools is, please include the output in the console tab. If you don't, it's fine to leave it empty.

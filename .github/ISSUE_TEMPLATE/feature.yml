@@ -1,0 +1,34 @@
+name: Suggestion
+description: Suggest a new feature or improvement
+labels:
+  - "enhancement"
+title: "[Suggestion] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your suggestion! Please fill the following form so we can understand your idea better:
+
+        Please understand that we only have limited time and resources, so we may not be able to implement your suggestion. However, we will try our best to make Tango better for everyone.
+
+  - type: checkboxes
+    attributes:
+      label: Pre-issue checklist
+      options:
+        - label: I've searched the issue list but couldn't find the feature I want
+          required: true
+
+  - type: textarea
+    attributes:
+      label: How would you like Tango to be improved?
+      description: Please describe the feature you want in detail.
+
+  - type: textarea
+    attributes:
+      label: How do you think it should work?
+      description: What information or operations should be included? How should they be presented?
+
+  - type: textarea
+    attributes:
+      label: (Optional) Other information
+      description: If you have any documentations or references about your suggestion, please include them here. These can help us implement your suggestion faster.
