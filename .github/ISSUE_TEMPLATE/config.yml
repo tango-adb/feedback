@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Discussions
-    url: https://github.com/yume-chan/tango-feedback/discussions/new
+    url: https://github.com/yume-chan/tango-feedback/discussions/new/choose
     about: Ask questions about usage or anything related to Android and ADB
 
   - name: Issues about Tango NPM packages
